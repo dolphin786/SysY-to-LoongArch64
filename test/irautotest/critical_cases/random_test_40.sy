@@ -1,0 +1,105 @@
+const int var_bmr = -39;
+
+const int var_cbd = -56;
+
+int var_tkb;
+
+int func_uzq() {
+    int var_cuu = 92 % (2 * -85 + 1) * -8 - 10 / (2 * -88 + 1) / (2 * - -28 + 1);
+    int var_vuo = (var_cuu + var_cuu / (2 * var_cuu + 1) + var_cuu % (var_cuu * var_cuu + 1) / 2) % (var_cuu * var_cuu + 1) * var_cuu + var_cuu * 94;
+    int var_pco = 0;
+ while (var_pco * var_vuo * + +34 + var_vuo > var_vuo != var_cuu / (var_pco * var_pco + 1) / (var_vuo * var_vuo + 1) - -var_pco || (var_cuu + -var_cuu + var_vuo) - -var_cuu - +var_pco) {
+    var_pco = var_pco + 1; if(var_pco > 1000) break;
+}
+    int var_ajv = 0;
+ while (-61 / 7 > var_cuu + +var_vuo == var_vuo * 48 / (var_vuo * var_vuo + 1) - var_vuo + var_pco && -68 % (2 * -var_ajv + 1)) {
+    var_ajv = var_ajv + 1; if(var_ajv > 1000) break;
+}
+    return -72 - var_vuo + +var_ajv % (2 * +(-56) + 1);
+}
+
+int func_agc() {
+    const int var_kcp = 23;
+    const int var_yky = -40;
+    int var_yxg = 37 / (2 * var_yky + 1) * - -var_kcp + var_yky % (var_yky * var_yky + 1) / (2 * -43 + 1);
+    var_yxg = var_yky % 1 / (2 * var_yxg + 1);
+    ;
+    var_yxg = +var_yky % 5 % (var_kcp * var_kcp + 1);
+    {
+    int var_fqn = -var_yxg;
+    {
+    {
+    int var_zxb = var_yxg + +-var_fqn / 5;
+    var_yxg = -10 - (+var_yxg % 8 - var_yxg - -(var_zxb));
+    var_fqn = var_yxg;
+    var_yxg = 56 % 10 / (var_fqn * var_fqn + 1) + var_kcp / (2 * -24 + 1) - var_fqn * var_kcp;
+}
+    var_yxg = (-var_kcp) * -92 + +-89;
+    ;
+}
+    var_yxg = - -var_kcp - var_kcp / (var_yky * var_yky + 1) + var_yxg * var_yxg % 4;
+    if (var_kcp / (2 * +var_kcp + 1) % (var_yxg * var_yxg + 1) == var_yky * -var_fqn + var_fqn + +(((var_yxg))) && -(13) / (2 * var_yxg + 1) / (2 * -var_kcp + 1) + var_yky - -69) {
+    ;
+} else {
+    ;
+}
+}
+    {
+    {
+    int var_kqn = (-var_yxg * + +var_yxg * 62);
+    const int var_lcg = 96;
+    if (var_yky / 5 < var_kcp * var_kqn * var_kqn - -var_kcp == 4 + -var_kqn + -var_kcp && (var_lcg) - -var_yxg + -var_lcg) {
+    var_kqn = -60 % (var_lcg * var_lcg + 1) - +var_yxg / 6;
+}
+    var_yxg = - -41;
+    int var_skx = 0;
+ while (+var_yky / (var_yxg * var_yxg + 1) + var_yxg * var_skx < var_lcg == -var_kqn - 52 - var_kqn || -var_yky - -29) {
+    var_skx = var_skx + 1; if(var_skx > 1000) break;
+}
+}
+}
+    var_yxg = var_yky + (54 * +(34) / 1);
+    return var_yxg / (var_kcp * var_kcp + 1) % (2 * -6 + 1);
+}
+
+int func_hkj() {
+    int var_obo;
+    int var_ybu;
+    const int var_ytl = -100;
+    {
+    ;
+    ;
+}
+    if (94 * (var_ytl / (2 * - -7 + 1) % (var_obo * var_obo + 1)) / (2 * + +var_ybu + 1) - -var_ybu / 10 && (var_ybu % (var_obo * var_obo + 1) - 21 + -var_ybu) - var_ybu || -var_ybu + -var_obo) {
+    var_ybu = +(-13 % (2 * var_ytl + 1) + var_obo + -13) % 5;
+} else {
+    var_obo = (-var_ytl * var_ybu) * +var_obo / (2 * var_obo + 1) + var_obo + -var_ybu / (2 * -var_ytl + 1);
+}
+    ;
+    int var_xrq = 0;
+ while (var_ybu + var_ytl * -var_ybu * var_ybu + +-63 > -var_ybu / (var_ytl * var_ytl + 1) - var_ytl == var_xrq % (var_ytl * var_ytl + 1) / 4 && var_xrq * -var_xrq + +var_ybu - var_obo || +var_obo * var_xrq - var_ybu) {
+    var_xrq = var_xrq + 1; if(var_xrq > 1000) break;
+}
+    return (var_obo % (var_xrq * var_xrq + 1) * var_xrq) * +(var_ytl) + -84 / (2 * ((+(var_ytl))) + 1) % 7 - -((var_ybu)) * +var_obo;
+}
+
+int main() {
+    const int var_fkp = 11;
+    {
+    int var_lmp = +0 / (var_fkp * var_fkp + 1) % 6 - +var_fkp;
+    int var_fau;
+    ;
+    ;
+    ;
+}
+    int var_hul = func_agc();
+    int var_hlm = func_hkj();
+    ;
+    var_tkb = var_hlm * (var_bmr / (var_hlm * var_hlm + 1)) % 4 - -60 / (var_bmr * var_bmr + 1) / (var_hlm * var_hlm + 1);
+    int var_kra = 0;
+ while (var_cbd % 3 - +var_hlm / 2 / 9 + var_fkp % (var_fkp * var_fkp + 1) * +((var_hul)) >= var_kra - 19 - var_fkp != -10 * -43 + var_tkb - var_hlm) {
+    var_kra = var_kra + 1; if(var_kra > 1000) break;
+}
+    return var_hlm;
+    return var_cbd - (var_hlm / (var_tkb * var_tkb + 1) / (2 * -58 + 1) - +var_fkp) - (27 * +(var_kra) / (2 * 4 + 1) + var_hlm);
+}

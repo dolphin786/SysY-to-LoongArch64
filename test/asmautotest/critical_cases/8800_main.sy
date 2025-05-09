@@ -1,0 +1,5 @@
+int main(){
+    putch(10);
+    putint(22);
+    return 2;
+}

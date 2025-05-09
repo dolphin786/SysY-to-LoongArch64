@@ -1,0 +1,4 @@
+const int a = 5+4+3+2;
+const int b = 11 + 5/3 * 2 * 9 % 4;
+const float f = 11.5/2;
+const float fff = 13*2.4+5.56;

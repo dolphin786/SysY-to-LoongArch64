@@ -1,0 +1,13 @@
+build/
+.vscode/
+.cache/
+diff_test_cases/
+-o
+performance_cases/
+asmautotest/perf_test_cases/
+irautotest/perf_test_cases/
+iroptautotest/perf_test_cases/
+tempLatexDoc.tex
+_pycache_/
+# critical_cases/
+performance_report.txt

@@ -1,0 +1,35 @@
+//int a;
+int b;
+int a[3][2];
+int c[3][3];
+int d[4];
+int e[3][6][2];
+int add(int x,int y)
+{
+    return x+y;
+}
+//int func()
+//{
+//    return 1;
+//}
+int func(int x[][2])
+{
+    return x[0][1];
+}
+int main()
+{
+//    add(a);
+//    add(a,a+b);
+//    add(a,a+b,b);
+//    add(a,b,c);
+//    add(a,c);
+//    func(1,2);
+//    fun();
+//    func();
+    func(a);
+//    func(c);
+//    func(d);
+//    func(e);
+    func(e[1]);
+    return 0;
+}

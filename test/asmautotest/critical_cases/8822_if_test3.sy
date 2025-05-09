@@ -1,0 +1,16 @@
+// test if-else-if
+
+
+int main(){
+  int a;
+  a = 5;
+  int b;
+  b = 10;
+
+  //if (b == 10 && a == -5)
+      //a = a + 15;
+  //else
+      a = -+a;
+
+  return a;
+}

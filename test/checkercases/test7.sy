@@ -1,0 +1,8 @@
+int a = 1;
+int b,c,d;
+int array[10] = {1,1,1,0};
+float farr[3] = {0.1,2.3,3.1};
+//float badfarr[2] = {1.1,2.2,3.1};
+//int wronga[4] = {0.0,1,2,3};
+//float wrongf[4] = {1,2,3,4};
+//int badarr[2] = {1,2,3};

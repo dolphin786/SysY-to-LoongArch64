@@ -1,0 +1,23 @@
+int a;
+int b;
+int add(int x,int y)
+{
+    return a+b;
+}
+int func()
+{
+    return 1;
+}
+int main()
+{
+//    add(a);
+    add(a,a+b);
+//    add(a,a+b,b);
+//    add(a,b,c);
+//    add(a,c);
+//    func(1,2);
+//    fun();
+    func();
+    a = add(a,a*b%b);
+    return 0;
+}

@@ -1,0 +1,248 @@
+// float global constants
+const float RADIUS = 5.5, PI = 03.141592653589793, EPS = 1e-6;
+
+// hexadecimal float constant
+const float PI_HEX = 0x1.921fb6p+1, HEX2 = 0x.AP-3;
+
+// float constant evaluation
+const float FACT = -.33E+5, EVAL1 = PI * RADIUS * RADIUS, EVAL2 = 2 * PI_HEX * RADIUS, EVAL3 = PI * 2 * RADIUS;
+
+// float constant implicit conversion
+const float CONV1 = 233, CONV2 = 0xfff;
+const int MAX = 1e9, TWO = 2.9, THREE = 3.2, FIVE = TWO + THREE;
+
+// float -> float function
+float float_abs(float x) {
+  if (x < 0) return -x;
+  return x;
+}
+
+// int -> float function & float/int expression
+float circle_area(int radius) {
+  return (PI * radius * radius + (radius * radius) * PI) / 2;
+}
+
+// float -> float -> int function & float/int expression
+int float_eq(float a, float b) {
+  if (float_abs(a - b) < EPS) {
+    return 1 * 2. / 2;
+  } else {
+    return 0;
+  }
+}
+
+void error() {
+  putch(101);
+  putch(114);
+  putch(114);
+  putch(111);
+  putch(114);
+  putch(10);
+}
+
+void ok() {
+  putch(111);
+  putch(107);
+  putch(10);
+}
+
+void assert(int cond) {
+  if (!cond) {
+    error();
+  } else {
+    ok();
+  }
+}
+
+void assert_not(int cond) {
+  if (cond) {
+    error();
+  } else {
+    ok();
+  }
+}
+
+float f_func_1(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9)
+{
+  return x1+x2+x3+x4+x5+x6+x7+x8+x9;
+}
+// Functions with different combinations of float and int parameters
+// All returning float
+float f_func_2(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8;
+}
+
+float f_func_3(float x1, int x2, float x3, int x4, float x5, int x6, float x7, int x8)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8;
+}
+
+float f_func_4(int x1, int x2, int x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10;
+}
+
+// Functions with different combinations of float and int parameters
+// All returning int
+int i_func_1(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8;
+}
+
+int i_func_2(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10;
+}
+
+int i_func_3(float x1, int x2, float x3, int x4, float x5, int x6, float x7, int x8, float x9)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9;
+}
+
+// Functions with many parameters that will require stack passing
+float f_func_large(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, 
+                  float x9, float x10, float x11, float x12, float x13, float x14, float x15, float x16)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12 + x13 + x14 + x15 + x16;
+}
+
+int i_func_large(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8,
+                int x9, int x10, int x11, int x12, int x13, int x14, int x15, int x16)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12 + x13 + x14 + x15 + x16;
+}
+
+// Mixed parameter function with many parameters
+float mixed_func_large(float x1, int x2, float x3, int x4, float x5, int x6, float x7, int x8,
+                      float x9, int x10, float x11, int x12, float x13, int x14, float x15, int x16)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12 + x13 + x14 + x15 + x16;
+}
+
+float mixed_func_very_large(float x1, int x2, float x3, int x4, float x5, int x6, float x7, int x8,
+                      float x9, int x10, float x11, int x12, float x13, int x14, float x15, int x16, float x17, int x18, float x19, int x20, float x21, int x22)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12 + x13 + x14 + x15 + x16 + x17 + x18 + x19 + x20 + x21 + x22;
+}
+
+float chaotic_func_very_large(float x1, int x2, int x3, int x4, float x5, int x6, float x7, int x8,
+                      float x9, int x10, float x11, int x12, float x13, int x14, float x15, int x16, float x17, int x18, float x19, int x20, float x21, int x22)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12 + x13 + x14 + x15 + x16 + x17 + x18 + x19 + x20 + x21 + x22;
+}
+
+float chaotic_func_very_large_2(float x1, int x2, float x3, float x4, float x5, int x6, float x7, int x8,
+                      float x9, int x10, float x11, int x12, float x13, int x14, float x15, int x16, float x17, int x18, float x19, int x20, float x21, int x22)
+{
+  return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12 + x13 + x14 + x15 + x16 + x17 + x18 + x19 + x20 + x21 + x22;
+}
+
+int main() {
+  //assert_not(float_eq(HEX2, FACT));
+  //assert_not(float_eq(EVAL1, EVAL2));
+  //assert(float_eq(EVAL2, EVAL3));
+  //assert_not(float_eq(CONV1, CONV2) /* i->f implicit conversion */);
+
+  int a = 1, b = 2, c = 3, d = 4, e = 5, f = 6, g = 7, h = 8, i = 9, j = 10, k = 11, l = 12, m = 13, n = 14, o = 15 , p = 16;
+  float fa = 1, fb = 2, fc = 3, fd = 4, fe = 5, ff = 6, fg = 7, fh = 8, fi = 9, fj = 10, fk = 11, fl = 12, fm = 13, fn = 14, fo = 15, fp = 16;
+  float ttt = 1145141.233;
+
+  // Test f_func_1 with float parameters
+  float f1_result = f_func_1(a,b,c,d,e,f,g,h,i);
+  putch(102); putch(49); putch(58); putch(32);
+  putfloat(f1_result);
+  putch(10);
+  
+  // Test f_func_2 with float parameters
+  float f2_result = f_func_2(fa, fb, fc, fd, fe, ff, fg, fh);
+  putch(102); putch(50); putch(58); putch(32);
+  putfloat(f2_result);
+  putch(10);
+  
+  // Test f_func_3 with mixed parameters
+  float f3_result = f_func_3(fa, b, fc, d, fe, f, fg, h);
+  putch(102); putch(51); putch(58); putch(32);
+  putfloat(f3_result);
+  putch(10);
+  
+  // Test i_func_1 with int parameters
+  int i1_result = i_func_1(fa, fb, fc, fd, fe, ff, fg, fh);
+  putch(105); putch(49); putch(58); putch(32);
+  putint(i1_result);
+  putch(10);
+  
+  // Test i_func_2 with int parameters
+  int i2_result = i_func_2(a, b, c, d, e, f, g, h, i, j);
+  putch(105); putch(50); putch(58); putch(32);
+  putint(i2_result);
+  putch(10);
+  
+  // Test i_func_3 with mixed parameters
+  int i3_result = i_func_3(fa, b, fc, d, fe, f, fg, h, fi);
+  putch(105); putch(51); putch(58); putch(32);
+  putint(i3_result);
+  putch(10);
+  
+  // Test f_func_large with float parameters
+  float fl_result = f_func_large(fa, fb, fc, fd, fe, ff, fg, fh, fi, fj, fk, fl, fm, fn, fo, fp);
+  putch(102); putch(108); putch(58); putch(32);
+  putfloat(fl_result);
+  putch(10);
+  
+  // Test i_func_large with int parameters
+  int il_result = i_func_large(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p);
+  putch(105); putch(108); putch(58); putch(32);
+  putint(il_result);
+  putch(10);
+  
+  // Test mixed_func_large with mixed parameters
+  float ml_result = mixed_func_large(fa, b, fc, d, fe, f, fg, h, fi, j, fk, l, fm, n, fo, p);
+  putch(109); putch(108); putch(58); putch(32);
+  putfloat(ml_result);
+  putch(10);
+  
+  // Test mixed_func_very_large with mixed parameters
+  float mvl_result = mixed_func_very_large(fa, a, fb, b, fc, c, fd, d, fe, e, ff, f, fg, g, fh, h, fi, i, fj, j, fk, k);
+  putch(109); putch(118); putch(108); putch(58); putch(32);
+  putfloat(mvl_result);
+  putch(10);
+
+  // Test chaotic_func_very_large with mixed parameters
+  float cvl_result = chaotic_func_very_large(fa, a, b, b, fc, c, fd, d, fe, e, ff, f, fg, g, fh, h, fi, i, fj, j, fk, k);
+  putch(99); putch(118); putch(108); putch(58); putch(32);
+  putfloat(cvl_result);
+  putch(10);
+  
+  // Test chaotic_func_very_large_2 with mixed parameters
+  float cvl2_result = chaotic_func_very_large_2(fa, a, fb, fc, fc, c, fd, d, fe, e, ff, f, fg, g, fh, h, fi, i, fj, j, , fk, k);
+  putch(99); putch(118); putch(108); putch(50); putch(58); putch(32);
+  putfloat(cvl2_result);
+  putch(10);
+
+  // float conditional expressions
+  //if (1.5) ok();
+  //if (!!3.3) ok();
+  //if (.0 && 3) error();
+  //if (0 || 0.3) ok();
+
+  // float array & I/O functions
+  //int i = 1, p = 0;
+  //float arr[10] = {1., 2};
+  //int len = getfarray(arr);
+  //while (i < MAX) {
+    //float input = getfloat();
+    //float area = PI * input * input, area_trunc = circle_area(input);
+    //arr[p] = arr[p] + input;
+
+    //putfloat(area);
+    //putch(32);
+    //putint(area_trunc); // f->i implicit conversion
+    //putch(10);
+
+    //i = i * - -1e1;
+    //p = p + 1;
+  //}
+  //putfarray(len, arr);
+  return 0;
+}
