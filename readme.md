@@ -18,6 +18,6 @@ build/sysyc example.sy -S example.S -i debug.ll
 也可以使用项目根目录下的脚本compile.sh，通过clang16汇编与静态链接得到可执行程序，该脚本需要/opt/cross-tool下的LoongArch交叉编译工具链（将<https://github.com/loongson/build-tools/releases/download/2022.09.06/loongarch64-clfs-6.3-cross-tools-gcc_and_clang-full.tar.xz>解压到/opt下得到）。
 ### 测试编译器
 需要安装qemu-loongarch64用户模式，以及Clang16和LoongArch交叉编译工具链。
-* 在test/autotest/下运行loongarch64_build_and_run_tests.sh使用functional_cases进行自动功能测试
+* 在test/autotest/下运行loongarch64_build_and_run_tests.sh使用functional_cases（来自<https://gitlab.eduxiji.net/csc1/nscscc/compiler2023/-/tree/master/%E5%85%AC%E5%BC%80%E6%A0%B7%E4%BE%8B%E4%B8%8E%E8%BF%90%E8%A1%8C%E6%97%B6%E5%BA%93/functional>）进行自动功能测试
 * 在test/autotest/下运行loongarch64_build_and_run_diff_test进行差分功能测试，使用generate_sysy_test.py生成随机样例
 * 在test/autotest/下运行run_perf_test.sh使用perf_test_cases进行性能测试，需要LoongArch交叉编译工具链中的loongarch64-unknown-linux-gnu-gcc，会在该目录下生成一份性能报告performance_report.txt
