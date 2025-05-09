@@ -1,6 +1,6 @@
 # SysY-to-LoongArch64
 ## 介绍
-一个由C++17编写的基于ANTLR4前端的编译器，可以将SysY2022语言编译为LoongArch64汇编，支持导出可读形式的LLVM IR。
+一个由C++17编写的基于ANTLR4前端的编译器，可以将SysY2022语言编译为LoongArch64汇编，支持导出可读形式的LLVM IR。**项目参考的开源项目已在源码使用处标记。**
 ## 基础环境
 * ANTLR4 C++运行时库 4.9.3， 安装在/usr/local
 ## 构建

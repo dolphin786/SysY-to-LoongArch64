@@ -1,3 +1,6 @@
+/*
+参考了https://gitlab.eduxiji.net/educg-group-26173-2487151/T202410284203546-2971中的parser/SysYParser.g4
+*/
 grammar SysY;
 
 program:compUnit;
